@@ -16,6 +16,12 @@ struct ContentView: View {
             Text("Hello, Dev!")
             Text("Hello, Dev2!")
             Text("Hello, Dev3!")
+            HStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, Dev4!")
+            }
         }
         .padding()
     }
